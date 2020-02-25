@@ -33,7 +33,7 @@ def directors_totals(nds)
   }
 
   director_name_list.each do |director|
-    result[director] = director_total_numbers[nds.index(director)]
+    result[director] = director_total_numbers[director_name_list.index(director)]
   end
 
   pp result
