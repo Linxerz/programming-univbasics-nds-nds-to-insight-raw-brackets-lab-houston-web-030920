@@ -34,7 +34,7 @@ def directors_totals(nds)
     result[director] = director_total_numbers[director.index]
   end
 
-  result
+  pp result
 
 
 end
