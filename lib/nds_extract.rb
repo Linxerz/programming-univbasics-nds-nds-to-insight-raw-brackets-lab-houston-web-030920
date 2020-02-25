@@ -26,7 +26,7 @@ def directors_totals(nds)
   director_name_list = get_director_name(nds)
   director_total_numbers = get_director_name(nds)
 
-  
+
   result = {
   }
 
@@ -35,6 +35,6 @@ def directors_totals(nds)
   end
 
   result
-    
+
 
 end
